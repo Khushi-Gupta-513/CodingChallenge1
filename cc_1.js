@@ -63,3 +63,30 @@ console.log('After splitting, balance is: $' + accountBalance);
 accountBalance %= 300;
 console.log('Remainder when balance is divided by 300: $' + accountBalance);
 
+// Task 4: Employee Performance Evaluation
+
+// Step 1: Declare variables for employee scores
+let employeeScore1 = 85;
+let employeeScore2 = 90;
+
+// Step 2: Use comparison operators to compare the scores and log the results
+
+// Is employeeScore1 greater than employeeScore2?
+console.log('employeeScore1 > employeeScore2: ', employeeScore1 > employeeScore2);
+
+// Is employeeScore1 less than employeeScore2?
+console.log('employeeScore1 < employeeScore2: ', employeeScore1 < employeeScore2);
+
+// Is employeeScore1 greater than or equal to employeeScore2?
+console.log('employeeScore1 >= employeeScore2: ', employeeScore1 >= employeeScore2);
+
+// Is employeeScore1 less than or equal to employeeScore2?
+console.log('employeeScore1 <= employeeScore2: ', employeeScore1 <= employeeScore2);
+
+// Are employeeScore1 and employeeScore2 equal?
+console.log('employeeScore1 === employeeScore2: ', employeeScore1 === employeeScore2);
+
+// Are employeeScore1 and employeeScore2 not equal?
+console.log('employeeScore1 !== employeeScore2: ', employeeScore1 !== employeeScore2);
+
+
