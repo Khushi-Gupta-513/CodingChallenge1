@@ -90,3 +90,36 @@ console.log('employeeScore1 === employeeScore2: ', employeeScore1 === employeeSc
 console.log('employeeScore1 !== employeeScore2: ', employeeScore1 !== employeeScore2);
 
 
+
+
+
+// Task 5: Access Control System
+
+// Step 1: Declare variables for access control
+let hasKeyCard = true;
+let hasPermission = false;
+
+// Step 2: Combine these variables using logical operators
+
+// Can access if the user has both the key card and permission
+let canAccessBoth = hasKeyCard && hasPermission;
+console.log('Can access with both key card and permission: ', canAccessBoth);
+
+// Can access if the user has either the key card or permission
+let canAccessEither = hasKeyCard || hasPermission;
+console.log('Can access with either key card or permission: ', canAccessEither);
+
+// Step 3: Use the ! operator to reverse a boolean value
+
+// Check what happens if the user does NOT have a key card
+let noKeyCard = !hasKeyCard;
+console.log('User does NOT have a key card: ', noKeyCard);
+
+// Check what happens if the user does NOT have permission
+let noPermission = !hasPermission;
+console.log('User does NOT have permission: ', noPermission);
+
+
+
+
+
