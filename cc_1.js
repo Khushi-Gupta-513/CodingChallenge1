@@ -18,3 +18,20 @@ console.log("Type of employeeID: " + typeof employeeID);
 
 console.log("Is Active: " + isActive);
 console.log("Type of isActive: " + typeof isActive);
+
+
+// Task 2: Product Inventory Management
+
+// Step 1: Create an array of products
+let products = ['Laptop', 'Smartphone', 'Headphones'];
+
+// Step 2: Create an object for product details
+const productDetails = {
+    name: 'Laptop',
+    price: 999.99,
+    inStock: true
+};
+
+// Step 3: Log the array and the object to the console
+console.log(products);
+console.log(productDetails);
