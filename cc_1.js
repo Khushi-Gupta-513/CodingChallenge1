@@ -35,3 +35,31 @@ const productDetails = {
 // Step 3: Log the array and the object to the console
 console.log(products);
 console.log(productDetails);
+
+// Task 3: Financial Calculations
+
+// Step 1: Declare a variable for account balance
+let accountBalance = 1000; // Initial balance
+
+// Step 2: Use assignment operators for various transactions
+
+// Add a deposit of $500
+accountBalance += 500;
+console.log('After deposit, balance is: $' + accountBalance);
+
+// Subtract a withdrawal of $200
+accountBalance -= 200;
+console.log('After withdrawal, balance is: $' + accountBalance);
+
+// Multiply the balance by 1.05 to add 5% interest
+accountBalance *= 1.05;
+console.log('After adding interest, balance is: $' + accountBalance);
+
+// Divide the balance by 2 for some reason (e.g., splitting)
+accountBalance /= 2;
+console.log('After splitting, balance is: $' + accountBalance);
+
+// Apply modulus operation to get the remainder when divided by 300
+accountBalance %= 300;
+console.log('Remainder when balance is divided by 300: $' + accountBalance);
+
